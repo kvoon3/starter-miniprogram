@@ -6,7 +6,6 @@ export default defineConfig({
 
     npm: {
       cache: false,
-
     },
 
     enhance: {

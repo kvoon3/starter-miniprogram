@@ -33,3 +33,5 @@ yarn-error.log*
 dist
 dist-plugin
 vite.config.ts.timestamp-*.mjs
+
+generated
