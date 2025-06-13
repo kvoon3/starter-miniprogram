@@ -1,0 +1,5 @@
+<view class="h-100vh box-border of-scroll">
+  <Navbar  />
+  <view class="bg-neutral-400_40 color-hex-fff rounded p4">Hello World From Weapp-vite!</view>
+  <span class="i-ph-cursor" />
+</view>
