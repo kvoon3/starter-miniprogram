@@ -12,7 +12,7 @@ export default defineConfig({
   cli: {
     entry: {
       patterns: ['./src/**/*.wxml'],
-      outFile: './src/unocss.wxss',
+      outFile: './generated/unocss.wxss',
     },
   },
 

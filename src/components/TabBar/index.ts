@@ -1,4 +1,4 @@
-import { ref as deepRef, defineComponent, shallowRef, watchEffect } from '@vue-mini/core'
+import { ref as deepRef, defineComponent, shallowRef } from '@vue-mini/core'
 import { getData } from '~/utils/wx'
 
 export const tabs = deepRef([
