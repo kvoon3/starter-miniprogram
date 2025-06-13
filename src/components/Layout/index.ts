@@ -3,12 +3,10 @@ import { getBottomHeight } from '~/utils/ui'
 
 definePage({
   setup() {
-    // const height = shallowRef(getBottomHeight())
-
-    console.log('123')
+    const height = shallowRef(getBottomHeight())
 
     return {
-      // height,
+      height,
     }
   },
 })
