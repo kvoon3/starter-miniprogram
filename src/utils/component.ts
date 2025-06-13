@@ -1,6 +1,7 @@
 // TODO
 
-import { defineComponent, Config, ComponentSetup } from '@vue-mini/core'
+import type { ComponentSetup, Config } from '@vue-mini/core'
+import { defineComponent } from '@vue-mini/core'
 
 function mapKeys(
   source: Record<string, any>,
