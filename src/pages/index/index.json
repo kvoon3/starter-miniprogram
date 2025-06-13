@@ -1,7 +1,0 @@
-{
-  "$schema": "https://ice-vite.netlify.app/page.json",
-  "usingComponents": {
-    "Navbar": "/components/Navbar/Navbar"
-  },
-  "navigationBarTitleText": "初始模板"
-}

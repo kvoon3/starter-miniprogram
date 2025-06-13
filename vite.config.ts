@@ -3,7 +3,13 @@ import { defineConfig } from 'weapp-vite/config'
 export default defineConfig({
   weapp: {
     srcRoot: 'src',
-    // pnpm g 生成的格式
+
+    enhance: {
+      autoImportComponents: {
+        globs: ['**/components/**/*'],
+      },
+    },
+
     // https://ice-vite.netlify.app/guide/generate.html
     generate: {
       extensions: {

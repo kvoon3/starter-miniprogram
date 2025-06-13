@@ -49,5 +49,8 @@
     "scss",
     "pcss",
     "postcss"
-  ]
+  ],
+  "[wxml]": {
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+  }
 }

@@ -1,5 +1,17 @@
-<view class="h-100vh box-border of-scroll">
-  <Navbar  />
-  <view class="bg-neutral-400_40 color-hex-fff rounded p4">Hello World From Weapp-vite!</view>
-  <span class="i-ph-cursor" />
+<view class="h-100vh box-border flex flex-col text-base">
+  <view class=" flex-1 of-scroll">
+    <view class="bg-red size-100 mb4"/>
+    <view class="bg-red size-100 mb4"/>
+    <view class="bg-red size-100 mb4"/>
+    <view class="bg-red size-100 mb4"/>
+    <view class="bg-red size-100 mb4"/>
+    <view class="bg-red size-100 mb4"/>
+    <view class="bg-red size-100 mb4"/>
+    <view class="bg-red size-100 mb4"/>
+    <view class="bg-red size-100 mb4"/>
+    <view class="bg-red size-100 mb4"/>
+    <view class="bg-red size-100 mb4"/>
+  </view>
+  <Tabbar class="shrink-0" />
+  <view class="shrink-0" style="height: {{height}}rpx" />
 </view>
