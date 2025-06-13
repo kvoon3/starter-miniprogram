@@ -32,7 +32,6 @@ export default defineConfig({
         'vertical-align': 'middle',
       },
     }),
-    // @ts-expect-error type error
     presetWeapp(),
   ],
 })
