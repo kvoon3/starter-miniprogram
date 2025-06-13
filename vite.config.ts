@@ -4,9 +4,17 @@ export default defineConfig({
   weapp: {
     srcRoot: 'src',
 
+    npm: {
+      cache: false,
+
+    },
+
     enhance: {
       autoImportComponents: {
-        globs: ['**/components/**/*'],
+        globs: [
+          '**/components/**/*',
+          '**/layouts/**/*',
+        ],
       },
     },
 

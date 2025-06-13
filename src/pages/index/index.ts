@@ -1,12 +1,7 @@
-import { definePage, shallowRef } from '@vue-mini/core'
-import { getBottomHeight } from '~/utils/ui'
+import { defineComponent } from '@vue-mini/core'
 
-definePage({
+defineComponent({
   setup() {
-    const height = shallowRef(getBottomHeight())
 
-    return {
-      height,
-    }
   },
 })

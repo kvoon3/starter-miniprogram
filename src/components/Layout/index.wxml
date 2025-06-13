@@ -1,0 +1,26 @@
+<!-- default -->
+<template name="default">
+  <view class="h-100vh box-border flex flex-col text-base">
+    <view class=" flex-1 of-scroll">
+      <slot />
+      <view class="bg-red size-100 mb4"/>
+      <view class="bg-red size-100 mb4"/>
+      <view class="bg-red size-100 mb4"/>
+      <view class="bg-red size-100 mb4"/>
+      <view class="bg-red size-100 mb4"/>
+      <view class="bg-red size-100 mb4"/>
+      <view class="bg-red size-100 mb4"/>
+      <view class="bg-red size-100 mb4"/>
+      <view class="bg-red size-100 mb4"/>
+      <view class="bg-red size-100 mb4"/>
+      <view class="bg-red size-100 mb4"/>
+    </view>
+    <Tabbar class="shrink-0" />
+    <view class="shrink-0" style="height: {{height}}rpx" />
+  </view>
+</template>
+
+<view>
+  <template is="default"></template>
+</view>
+
